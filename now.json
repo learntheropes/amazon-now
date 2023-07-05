@@ -1,0 +1,26 @@
+{
+  "name": "localgrabr-now",
+  "version": 2,
+  "env": {
+    "BROWSERLESS_KEY": "",
+    "CLOUDINARY_CLOUDNAME": "",
+    "CLOUDINARY_KEY": "",
+    "CLOUDINARY_SECRET": "",
+    "BASEURL": ""
+  },
+  "functions": {
+    "api/amazon/specifications/[asin].js": {
+      "memory": 3008,
+      "maxDuration": 10
+    },
+    "api/amazon/pricing/[asin].js": {
+      "memory": 3008,
+      "maxDuration": 10
+    },
+    "api/offer/[ref].js": {
+      "memory": 3008,
+      "maxDuration": 10
+    }
+  },
+  "regions": ["sfo1"]
+}

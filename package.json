@@ -1,0 +1,14 @@
+{
+  "name": "localgrabr-now",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.17.0",
+    "dotenv": "^8.2.0",
+    "puppeteer-core": "^2.0.0",
+    "qs": "^6.9.1"
+  }
+}
